@@ -1,0 +1,168 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: background-color .2s;
+    transition-timing-function: ease-in;
+}
+
+body {
+    background-color: hsl(222, 26%, 31%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    font-family: 'Spartan', sans-serif;
+}
+
+nav {
+    margin: 3rem auto auto auto;
+    width: 22rem;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+nav h1 {
+    align-self: flex-end;
+}
+
+nav #selector {
+    align-self: flex-end;
+}
+
+nav #selector * {
+    display: inline;
+}
+
+nav #selector input {
+    margin-left: 1rem;
+    ;
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    border-radius: 1rem;
+    width: 3rem;
+    height: 1rem;
+    background: hsl(223, 31%, 20%);
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+nav #selector input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 0.7rem;
+    /* Set a specific slider handle width */
+    height: 0.7rem;
+    /* Slider handle height */
+    background: hsl(6, 63%, 50%);
+    /* Green background */
+    cursor: pointer;
+    border-radius: 1rem;
+    /* Cursor on hover */
+}
+
+label {
+    color: inherit;
+    position: relative;
+    left: 7.9rem;
+    bottom: 1.2rem;
+    width: 8rem;
+}
+
+label div {
+    color: inherit;
+    font-size: 0.8rem;
+}
+
+#window {
+    margin: auto;
+    padding: 1rem;
+    width: 22rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: white;
+    text-align: right;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(224, 36%, 15%);
+    border-radius: 0.5rem;
+    display: flex;
+    margin: 1rem auto;
+}
+
+#button-input {
+    margin: auto;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.button {
+    color: hsl(221, 14%, 31%);
+    background-color: white;
+    width: 4rem;
+    display: flex;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    margin: 0.5rem;
+    box-shadow: 0rem 0.15rem lightgray;
+    padding-top: 0.35rem;
+}
+
+.large-btn {
+    width: 9rem;
+}
+
+.blue-btn {
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+    font-size: 0.8rem;
+    box-shadow: 0rem 0.15rem hsl(224, 28%, 35%);
+}
+
+.large-btn:nth-child(2) {
+    background-color: hsl(6, 63%, 50%);
+    color: white;
+    box-shadow: 0rem 0.15rem hsl(6, 70%, 34%);
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    color: white;
+    padding-left: 1rem;
+}
+
+#theme-num {
+    color: white;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.cyan input::-webkit-slider-thumb {
+    background-color: cyan;
+}
